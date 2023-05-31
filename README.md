@@ -5,7 +5,7 @@ A template for projects being built on NextJS, MongoDB, AuthJS and TailwindCSS i
 
 To get started, clone, fork or download this repository into your own. 
 
-Then, create a .env.local file with the following variables:
+Then, create a .env.local file on the root level with the following variables:
 - MONGODB_URI
 - NODE_ENV
 - JWT_SECRET
