@@ -10,6 +10,6 @@ Then, create a .env.local file on the root level with the following variables:
 - NODE_ENV
 - JWT_SECRET
 
-This example has the Google Login already configured, if you wish to utilize it also add the following variables to your .env:
+This example has the Google login already configured, if you wish to utilize it also add the following variables to your .env:
 - GOOGLE_CLIENT_ID
 - GOOGLE_CLIENT_SECRET
