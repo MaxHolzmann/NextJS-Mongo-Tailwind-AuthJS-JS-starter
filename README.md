@@ -1,2 +1,13 @@
 # NextJS-Mongo-Tailwind-AuthJS-JS-starter
 A template for projects being built on NextJS, MongoDB, AuthJS and TailwindCSS in JavaScript rather than TypeScript.
+
+# Getting Started
+
+To get started, either clone or fork this repoistory. Then, create a .env.local file with the following variables:
+- MONGODB_URI
+- NODE_ENV
+- JWT_SECRET
+
+This example has the Google Login already configured, if you wish to utilize it also add the following variables to your .env:
+- GOOGLE_CLIENT_ID
+- GOOGLE_CLIENT_SECRET
