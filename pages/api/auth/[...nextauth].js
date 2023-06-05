@@ -1,12 +1,11 @@
-import  NextAuth  from "next-auth/next"
-import  GoogleProvider  from "next-auth/providers/google"
+import NextAuth from "next-auth"
+import GoogleProvider from "next-auth/providers/google";
 import clientPromise  from "../../../db/config/"
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 
-
-export default NextAuth.default({
+export const authOptions = {
   providers: [
-    GoogleProvider.default({
+    GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET
     }),
@@ -24,4 +23,6 @@ export default NextAuth.default({
   session: {
     strategy: 'jwt',
   },
-})
+}
+
+export default NextAuth(authOptions)

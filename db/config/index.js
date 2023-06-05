@@ -9,6 +9,8 @@ const options = {
   useNewUrlParser: true,
 }
 
+console.log(uri)
+
 let client
 let clientPromise
 
