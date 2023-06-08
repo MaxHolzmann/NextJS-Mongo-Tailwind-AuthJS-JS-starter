@@ -1,5 +1,5 @@
 # NextJS-Mongo-Tailwind-AuthJS-JS-starter
-A template for projects being built on NextJS, MongoDB, AuthJS and TailwindCSS in JavaScript rather than TypeScript.
+A beginning file structure for projects being built on NextJS, MongoDB, AuthJS and TailwindCSS in JavaScript rather than TypeScript.
 
 # Getting Started
 
